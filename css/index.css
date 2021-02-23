@@ -1,13 +1,54 @@
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   font-family: 'Lily Script One', cursive !important;
 }
 p{
   font-family: 'Jura', sans-serif;
+} */
+
+/* General Styles */
+h1{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  color: #1f1f1f;
+  /*font-size: 65px;*/
+}
+
+h2{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  color: #1f1f1f;
+  /*font-size: 30px;*/
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  color: #1f1f1f;
+  /*font-size: 20px;*/
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: #1f1f1f;
+  /*font-size: 15px; */
+}
+body{
+  color: #1f1f1f
+}
+
+a:hover {
+  color: #707070 impo !important;
+}
+
+a {
+  color: #1f1f1f  !important;
+}
+nav a:hover {
+  color: #707070;
 }
 .customNav{
   position: fixed;
   width: 100%;
-  background-color: rgb(28, 187, 180, 0.7) !important;
+  background-color: rgb(245, 223, 77, 0.7) !important;
   background-size: cover;
   z-index: 10;
 }
@@ -23,7 +64,7 @@ p{
   margin: 0px 15px;
 }
 .dropdown-menu {
-  background-color: rgb(28, 187, 180, 0.7)  !important;
+  background-color:rgb(245, 223, 77, 0.7)  !important;
   background-size: cover;
 }
 .dropdown-item:focus, .dropdown-item:hover {
@@ -32,37 +73,38 @@ p{
   background: black;
 }
 .customNav a {
-  color: white !important;
+  color: #1f1f1f !important;
+  font-weight: bold;
 }
 .navCTA {
   font-size: 15px;
 }
 .btn-primary{
-  background-color: #e87722;
-  border-color: #e87722;
+  background-color: #f5df4d;
+  border-color: #f5df4d;
 }
 .btn-primary:hover, .btn-primary:focus{
-  background-color: #e8975a;
-  border-color: #e8975a;
+  background-color: #f5df4d;
+  border-color: #f5df4d;
 }
 .jumbotron{
-  background-image: url(../images/dancing-cartoon-children-vector-22530898.jpg);
+  background-image: url(../images/Camryn_Office.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
-  height: calc(100vh - 25px);
+  height: calc(70vh - 30px);;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding: 5%;
 }
 .jumboCopy {
-  width: 70%;
+  width: 50%;
   min-width: 500px;
   max-width: 700px;
   text-align: center;
   background-color: rgb(255, 255, 255, 0.8);
   padding: 20px;
-  margin-top: -350px;
   -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0, 0, 0, 0.1) insert;
   -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0, 0, 0, 0.1) insert;
   box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0, 0, 0, 0.1);
@@ -97,15 +139,19 @@ p{
   padding-left: 15%;
   padding-right: 15%;
 }
+.footerBackground{
+  background-color: rgb(245, 223, 77, 0.7);
+  height: 60px;
+}
 .emailContain{
-  background: url(../images/5af494b0-43eb-4ad8-a49e-a43bddfcc47a.jpeg);
-  background-size: cover;
+
+  background-color: rgb(245, 223, 77, 0.7);
   display: flex;
   align-items: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 100px;
 }
 form{
   width: 500px;
@@ -127,15 +173,6 @@ form{
   margin-bottom: 1.5rem;
 
 
-
-
-
-
-
-
-
-
-
 footer {
   position: absolute;
   width: 100%;
@@ -150,3 +187,8 @@ footer {
 .card {
   margin: 0 auto;
 }
+
+
+/*About Page Adjustments */
+
+
