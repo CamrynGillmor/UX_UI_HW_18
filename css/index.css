@@ -100,7 +100,7 @@ nav a:hover {
 }
 .jumboCopy {
   width: 50%;
-  min-width: 500px;
+  min-width: 300px;
   max-width: 700px;
   text-align: center;
   background-color: rgb(255, 255, 255, 0.8);
@@ -191,4 +191,17 @@ footer {
 
 /*About Page Adjustments */
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .jumboCopy {
+    width: 50%;
+    min-width: 300px !important;
+  }
+.footerBackground{
+  display:none !important;
+}
 
+
+
+
+}
