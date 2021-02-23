@@ -1,0 +1,69 @@
+/* General Styles */
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #1f1f1f;
+    /*font-size: 65px;*/
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #1f1f1f;
+    /*font-size: 30px;*/
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: #1f1f1f;
+    /*font-size: 20px;*/
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #1f1f1f;
+   /* font-size: 15px;*/ 
+}
+body{
+    color: #1f1f1f
+}
+
+a{
+    color: #707070;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1f1f1f;
+}
+nav a:hover {
+    color: #707070;
+}
+
+#topCenter, .row {
+    justify-content: center;
+}
+
+/*
+.topRight img{
+    width: 25px;
+}
+.topRight1 img{
+    width: 32px;
+}
+
+.topRight {
+    float: right;
+    margin-right: 2%;
+}
+.topRight1 {
+    float: right;
+    margin-right: 3%;
+    margin-top: 3px;
+}*/
+.top, .container-fluid {
+    justify-content: end;
+}
+#socialIcons {
+    justify-content: end;
+}
